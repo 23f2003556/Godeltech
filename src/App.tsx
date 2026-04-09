@@ -66,7 +66,9 @@ const Header = () => {
             </a>
           ))}
           <a 
-            href="#contact" 
+            href="https://calendly.com/vishwa-godeltech/30min" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-black text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-black/80 transition-all active:scale-95"
           >
             Partner with Us
@@ -101,7 +103,9 @@ const Header = () => {
               </a>
             ))}
             <a 
-              href="#contact" 
+              href="https://calendly.com/vishwa-godeltech/30min" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-black text-white px-6 py-4 rounded-xl text-center font-bold"
               onClick={() => setIsMobileMenuOpen(false)}
             >
@@ -139,7 +143,9 @@ const Hero = () => {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="#contact" 
+                href="https://calendly.com/vishwa-godeltech/30min" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-black text-white px-8 py-4 rounded-2xl font-bold text-lg flex items-center justify-center gap-2 hover:scale-[1.02] transition-transform active:scale-95"
               >
                 Start Your POC
@@ -483,9 +489,14 @@ const CTA = () => {
               Stop Drafting. <br/>
               Start Engineering.
             </h2>
-            <button className="bg-white text-black px-12 py-6 rounded-full font-black text-xl hover:scale-110 transition-transform active:scale-95">
+            <a 
+              href="https://calendly.com/vishwa-godeltech/30min" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-black px-12 py-6 rounded-full font-black text-xl hover:scale-110 transition-transform active:scale-95 inline-block text-center"
+            >
               Partner for your Next Pitch
-            </button>
+            </a>
           </div>
           
           {/* Decorative Elements */}

@@ -464,53 +464,7 @@ const OurStory = () => {
           </div>
         </div>
 
-        {/* Trust Section */}
-        <div className="grid lg:grid-cols-2 gap-20 items-center mb-32">
-          <div>
-            <h3 className="text-4xl md:text-6xl font-black tracking-tighter mb-8 leading-tight">Why Leaders Trust Vishwanath</h3>
-            <p className="text-xl text-black/60 leading-relaxed mb-8">
-              Vishwanath Venkat is the rare partner who can sit in a boardroom to discuss valuation and strategy, then turn around and lead a team to build a custom geometry kernel.
-            </p>
-            <p className="text-xl text-black/60 leading-relaxed">
-              We don't just build software. We de-risk the most technical parts of your business so you can focus on what matters: <span className="text-black font-black">Scaling.</span>
-            </p>
-          </div>
-          <div className="bg-brand-gray p-12 rounded-[40px] border border-black/5">
-            <div className="flex gap-4 mb-8">
-              {[1,2,3,4,5].map(i => <Zap key={i} className="w-5 h-5 fill-black" />)}
-            </div>
-            <p className="text-2xl font-bold leading-tight mb-6">"Technical decisions are financial decisions. We manage burn rates with the same precision we use for our algorithms."</p>
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-full bg-black/10" />
-              <div>
-                <p className="font-black text-sm uppercase tracking-widest">The Partnership Edge</p>
-                <p className="text-xs text-black/40">Founding CTO Mindset</p>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        {/* Mission Quote */}
-        <motion.div 
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          className="p-12 md:p-24 bg-black text-white rounded-[60px] text-center relative overflow-hidden"
-        >
-          <div className="relative z-10">
-            <p className="text-3xl md:text-6xl font-medium leading-[1.1] mb-12 text-balance">
-              "Our mission is simple: We provide the deep-tech infrastructure so that visionaries can build the future without hitting a technical ceiling."
-            </p>
-            <span className="text-xl font-bold text-white/40 uppercase tracking-widest">— Vishwanath Venkat</span>
-          </div>
-          <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
-             <img 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1E8BXqYkCPP3P9t9mkIPWzfISKgL7-GvaCIvK1n7BdbZbBnkagC6Ds4OVN0DgdsxHTmZh-sQfPvIRuZKiZq8mBc7tObEklG2r9mlBIy7s1puOk4MEChma4qCOrhgGQyqyoostFf2DSvlV7YFWxN6zxPAe4FSQ633VAeMcnd7DsRKU5LEsRy8uNvzVRyKUQxQM6K01sIBOk_zZ36cWal6uQvmUGXr1hnVKo35IhmFJzfsHMtq3QDg6osqH0_g6crRFaDY5_05zwVw" 
-              alt="Background" 
-              className="w-full h-full object-cover"
-              referrerPolicy="no-referrer"
-            />
-          </div>
-        </motion.div>
       </div>
     </section>
   );

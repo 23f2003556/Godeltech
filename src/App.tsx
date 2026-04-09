@@ -52,7 +52,7 @@ const Header = () => {
           <div className="w-8 h-8 bg-black rounded-lg flex items-center justify-center">
             <Zap className="w-5 h-5 text-white" />
           </div>
-          <span className="text-xl font-black tracking-tighter">GANGES</span>
+          <span className="text-xl font-black tracking-tighter">GODEL TECH</span>
         </div>
 
         <nav className="hidden md:flex items-center gap-8">
@@ -398,7 +398,7 @@ const OurStory = () => {
                 In the startup world, "Spatial Intelligence" is often where great ideas go to die because the math is too hard, the talent is too expensive, and the development cycles are too long.
               </p>
               <p>
-                Vishwanath Venkat founded Ganges Technologies to solve this gap, synthesizing a decade of expertise and 60+ global projects into a Technical Co-Founding Engine.
+                Vishwanath Venkat founded Godel Tech to solve this gap, synthesizing a decade of expertise and 60+ global projects into a Technical Co-Founding Engine.
               </p>
             </div>
           </div>
@@ -556,15 +556,15 @@ const Footer = () => (
         <div className="w-6 h-6 bg-black rounded flex items-center justify-center">
           <Zap className="w-4 h-4 text-white" />
         </div>
-        <span className="text-lg font-black tracking-tighter">GANGES</span>
+        <span className="text-lg font-black tracking-tighter">GODEL TECH</span>
       </div>
       <div className="flex gap-8 text-sm font-medium text-black/40">
         <a href="#" className="hover:text-black transition-colors">Privacy Policy</a>
         <a href="#" className="hover:text-black transition-colors">Terms of Service</a>
-        <a href="mailto:info@ganges.ai" className="hover:text-black transition-colors">info@ganges.ai</a>
+        <a href="mailto:info@godeltech.in" className="hover:text-black transition-colors">info@godeltech.in</a>
       </div>
       <p className="text-sm font-medium text-black/20">
-        © {new Date().getFullYear()} Ganges Technologies. All rights reserved.
+        © {new Date().getFullYear()} Godel Tech. All rights reserved.
       </p>
     </div>
   </footer>
